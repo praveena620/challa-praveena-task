@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Data Form</title>
+        <a rel="stylesheet" href="student.css"></a>
+</head>
+    <body>
+        <h1>Student Data Form</h1>
+        <form id="studentForm">
+            Name: <input type="text" id="name" name="name" placeholder="enter the name"><br><br>
+            Email:<input type="email" id="email" name="email" placeholder="enter the email"><br><br>
+            phone:<input type="number" id="phone" name="phone" placeholder="enter the phone number"><br><br>
+            Maths:<input type="number" id="maths" name="maths" placeholder="enter the marks"><br><br>
+            English:<input type="number" id="english" name="english" placeholder="enter the marks"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    
+        <h2>Student Data</h2>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>phone</th>
+                    <th>Maths</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+            <tbody id="studentData"></tbody>
+        </table>
+    
+        <script src="student.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
